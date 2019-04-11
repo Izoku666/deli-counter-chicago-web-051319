@@ -4,9 +4,9 @@ def line(array)
     puts "The line is currently empty."
   else
     index = 0
-    str = "The line is currently: "
+    str = "The line is currently:"
     for i in array
-      str += "#{index + 1}. #{array[index]} "
+      str += "# {index + 1}. #{array[index]}"
       index += 1
     end
     puts str
