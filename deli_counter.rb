@@ -6,7 +6,7 @@ def line(array)
     index = 0
     str = "The line is currently: "
     for i in array
-      str += "#{index + 1} #{array[index]} "
+      str += "#{index + 1}. #{array[index]} "
     end
     puts str
   end
