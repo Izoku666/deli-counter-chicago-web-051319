@@ -1,8 +1,8 @@
 # Write your code here.
 def line(x)
   if x.length == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
-    return "There are #{x.length} people in line."
+    puts "There are #{x.length} people in line."
   end
 end
