@@ -8,5 +8,6 @@ def line(array)
     for i in array
       str += "#{index + 1} #{array[index]} "
     end
+    puts str
   end
 end
