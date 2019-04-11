@@ -23,7 +23,7 @@ end
 
 def now_serving(line)
   if line.length > 0
-    str = "Now serving #{line[0]}!"
+    str = "Currently serving #{line[0]}!"
     line.push
     puts str
   else
